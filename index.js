@@ -10,7 +10,7 @@ class Car {
   honk() {
     console.log("BEEP BEEP!")
   }
-
+  
   performMaintenance(){
 
     setTimeout(performMaintenance, 3000)
@@ -21,6 +21,6 @@ class Car {
   }
 }
 
-
 const mySweetRide = new Car ('Pontiac', 'Fiero', 1988)
+mySweetRide.performMaintenance()
 mySweetRide.honk()
