@@ -11,3 +11,5 @@ class Car {
     console.log("BEEP BEEP!")
   }
 }
+
+const mySweetRide = new Car ('Pontiac', 'Fiero', 1988)
